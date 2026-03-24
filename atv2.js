@@ -14,3 +14,4 @@ let valorConsumido = (distanciaEmKm / kmPorLitros) * valorCombustivel;
 
 console.log(`Levando em consideração que o valor da gasolina é de R$${valorCombustivel}, o valor consumido
     é de R$${valorConsumido.toFixed(2)}`);
+//OBS.: .toFixed e utilizado para arrendodar numeros quebrados. EX.: 2.456789 => .toFixed(2) = 2.45. 
