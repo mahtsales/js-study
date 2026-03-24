@@ -7,9 +7,9 @@ a sua media e sua classificacao, conforme abaixo:
 
 const prompt = require("prompt-sync")();
 
-const nota1 = Number(prompt("Digite sua 1º nota: "));
-const nota2 = Number(prompt("Digite sua 2º nota: "));
-const nota3 = Number(prompt("Digite sua 3º nota: "));
+const nota1 = parseFloat(prompt("Digite sua 1º nota: "));
+const nota2 = parseFloat(prompt("Digite sua 2º nota: "));
+const nota3 = parseFloat(prompt("Digite sua 3º nota: "));
 
 const media = (nota1 + nota2 + nota3) / 3;
 

@@ -6,9 +6,9 @@ Voce ira ter 3 variaveis:
 3 - Distancia em km da viagem */
 
 const prompt = require ("prompt-sync")();
-const valorCombustivel = Number(prompt("Digite o valor do combustível da sua cidade: "));
-const kmPorLitros = Number(prompt("Quantos km seu carro faz por cada L de gasolina?: "));
-const distanciaEmKm = Number(prompt("Quantos km irá percorrer?: "));
+const valorCombustivel = parseFloat(prompt("Digite o valor do combustível da sua cidade: "));
+const kmPorLitros = parseFloat(prompt("Quantos km seu carro faz por cada L de gasolina?: "));
+const distanciaEmKm = parseFloat(prompt("Quantos km irá percorrer?: "));
 
 let valorConsumido = (distanciaEmKm / kmPorLitros) * valorCombustivel;
 
