@@ -43,22 +43,3 @@ js-study/
 ├── logica/
 └── README.md
 
----
-
-🤝 Contribuição
-
-Este é um repositório de estudos, mas sugestões são sempre bem-vindas.
-
----
-
-📌 Autor
-
-Davi M.
-
-GitHub: https://github.com/mahtsales
-
----
-
-🧭 Status
-
-🚧 Em desenvolvimento contínuo
