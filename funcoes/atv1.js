@@ -1,16 +1,17 @@
-//criando funcao 'teste' => dentro dela, possui o codigo 'console.log();' => executo a funcao chamando 'teste();'
-const prompt = require("prompt-async")();
-
-function teste (){
-    console.log('hello, guys!');
-};
-
-teste();
-
-//chamamos de funcao de procedimento => funcoes que nao sao chamadas, apenas utilizadas para realizar um comando e encerrarem.
-function sayMyName(valor){
-    
-        console.log(`Hi ${name}! You're welcome!.`);
+function quadrado (valor){
+    return valor * valor;  
 }
 
-sayMyName();
+console.log(quadrado(2) * quadrado(2));
+
+function potencia (base, expoente){
+    return Math.pow(base,expoente);
+}
+
+console.log(potencia(2,3));
+
+function imc (peso, altura){
+    return (peso / Math.pow(altura,2)).toFixed(2);
+}
+
+console.log(imc(80,1.80));
